@@ -134,11 +134,11 @@ $row= mysqli_fetch_assoc($totalexpense);
 <!-- initial row container end -->
 <!-- </div> -->
 <div class="container justify-content-center bg-light" style="margin-top:12vh;">
-<div class="container">
+<div class="container m-5 pb-5">
 
 <table class="table bg-light  text-center" width="100%" id='datatable' >
 <!-- <table id="dataTable" class="table table-striped table-bordered nowrap" cellspacing="0" width="100%">  -->
-  <thead class="text-white" style="background-color:#bfe00ce3;">
+  <thead class="text-white " style="background-color:#bfe00ce3;">
   <tr >
     <th scope="col">RideID</th>
     <th scope="col">PICK UP</th>

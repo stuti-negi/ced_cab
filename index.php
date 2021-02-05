@@ -282,6 +282,7 @@ $(document).ready(function(){
 // ---------------- to calculate fare---------------------------------------------
       $("#calculate_fare").click(function(){
       var pick_loc = $('#PICKUP').val();
+    
       var drop_loc = $('#DROP').val();
       var cab=$("#cab_type").val();
       var wt=$('#weight').val();
@@ -322,7 +323,7 @@ $(document).ready(function(){
             wt:wt
         },
         success:function(data){
-            console.log(data);
+
             $("#show_fare").html(data);
          }
         });//ajax close

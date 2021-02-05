@@ -89,7 +89,7 @@ $rowlocation= mysqli_num_rows($location);
       <div class="card-body">
         <h5 class="card-title">RIDE REQUEST</h5>
         <p class="card-text" id="r_rq"><?php echo $rowcountpending; ?></p>
-        <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+        <a href="requestedrides.php" class="btn btn-outline-secondary">RIDE REQUEST</a>
       </div>
     </div>
   </div>
@@ -98,7 +98,7 @@ $rowlocation= mysqli_num_rows($location);
       <div class="card-body">
         <h5 class="card-title">Completed Rides</h5>
         <p class="card-text"><?php echo $rowcountcompleted; ?></p>
-        <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+        <a href="completedrides.php" class="btn btn-outline-secondary">Completed Rides</a>
       </div>
     </div>
   </div>
@@ -107,7 +107,7 @@ $rowlocation= mysqli_num_rows($location);
       <div class="card-body">
         <h5 class="card-title">Canceled Rides</h5>
         <p class="card-text"><?PHP echo $rowcountcancelled;?></p>
-        <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+        <a href="cancelledrides.php" class="btn btn-outline-secondary">Canceled Rides</a>
       </div>
     </div>
   </div>
@@ -116,7 +116,7 @@ $rowlocation= mysqli_num_rows($location);
       <div class="card-body">
         <h5 class="card-title">All rides</h5>
         <p class="card-text"><?php echo $rowcountallrides; ?></p>
-        <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+        <a href="allrides.php" class="btn btn-outline-secondary">All rides</a>
       </div>
     </div>
   </div>
@@ -127,7 +127,7 @@ $rowlocation= mysqli_num_rows($location);
       <div class="card-body">
         <h5 class="card-title">Blocked User </h5>
         <p class="card-text"><?PHP echo $rowblockeduser;?></p>
-        <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+        <a href="#" class="btn btn-outline-secondary">Blocked User</a>
       </div>
     </div>
   </div>
@@ -136,7 +136,7 @@ $rowlocation= mysqli_num_rows($location);
       <div class="card-body">
         <h5 class="card-title">Approved user </h5>
         <p class="card-text"><?PHP echo $rowactiveuser;?></p>
-        <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+        <a href="#" class="btn btn-outline-secondary">Approved user</a>
       </div>
     </div>
   </div>
@@ -145,7 +145,7 @@ $rowlocation= mysqli_num_rows($location);
       <div class="card-body">
         <h5 class="card-title">All users</h5>
         <p class="card-text"><?PHP echo $rowalluser;?></p>
-        <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+        <a href="Blocked User" class="btn btn-outline-secondary">All users</a>
       </div>
     </div>
   </div>
@@ -154,7 +154,7 @@ $rowlocation= mysqli_num_rows($location);
       <div class="card-body">
         <h5 class="card-title">Servicable locations</h5>
         <p class="card-text"><?php echo $rowlocation;?></p>
-        <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+        <a href="location.php" class="btn btn-outline-secondary">Servicable locations</a>
       </div>
     </div>
   </div>
@@ -165,7 +165,7 @@ $rowlocation= mysqli_num_rows($location);
       <div class="card-body">
         <h5 class="card-title">TOTAL EARNINGS</h5>
         <p class="card-text"><?PHP echo $row['fare'];?></p>
-        <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+        <a href="#" class="btn btn-outline-secondary">TOTAL EARNINGS</a>
       </div>
     </div>
   </div>

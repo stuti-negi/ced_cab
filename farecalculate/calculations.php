@@ -16,7 +16,7 @@ $dropdis=mysqli_query($connect,$dropdis_query) or die("SQL Query Failed.");
 $dropdistance= mysqli_fetch_assoc($dropdis);
 
 setcookie("pickup_location", $pick, time() + (86400 * 30), "/");
-echo ' <h2>PICK UP AT :<'.$pick.'</h2>';
+echo ' <h2>PICK UP AT :'.$pick.'</h2>';
 setcookie("drop_location", $drop, time() + (86400 * 30), "/");
 echo "<h2>DROP AT :".$drop."</h2>";
 setcookie("cab_type", $cab, time() + (86400 * 30), "/");

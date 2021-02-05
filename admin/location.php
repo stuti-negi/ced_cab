@@ -79,7 +79,7 @@ loaddata();
 //         url:"delete.php",
 //         type:"POST",
 //         data:{
-//             ID:stu<?php session_start();?>a==1){
+//             ID:stua==1){
 //                 $(element).closest("tr").fadeOut();
 //                 alert("Record deleted successfully ");
 //             }
