@@ -47,7 +47,7 @@ if(!isset($_SESSION['username'])){
     <div class="float-right ml-auto text-white">
    <h5> WELCOME <span><?php echo $_SESSION['name'];?> </span>!<span>
 
-    <a href="../logout.php"><button class="btn my-2 my-sm-0"  type="submit">Logout</button></a>
+    <a href="../logout.php"><button class="btn btn-danger my-2 my-sm-0 text-white"  type="submit">Logout</button></a>
     </span></h5>
     </div>
   </div>
